@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>In Class 2</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    
+    <h1>Welcome to the interactive ABC's of CSS Technology learning Website</h1>
+
+    <h2>Click on the buttons below to receal and learn the CSS technology features of the corresponding letters</h2>
+
+    <div class="buttons">
+        <button onclick="toggleContent('A')">A</button>
+        <button onclick="toggleContent('B')">B</button>
+        <button onclick="toggleContent('C')">C</button>
+    </div>
+    <div class="content-wrapper">
+        <div class="content" id="contentA">
+            <img src="./assets/img/css-letter-a.png" alt="The image for letter A">
+            <button class="hide" onclick="toggleContent('A')">Hide Result</button>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="content" id="contentB">
+            <img src="./assets/img/css-letter-b.png" alt="The image for letter B">
+            <button class="hide" onclick="toggleContent('B')">Hide Result</button>
+        </div>
+    </div>
+    
+    <div class="content-wrapper">
+        <div class="content" id="contentC">
+            <img src="./assets/img/css-letter-c.png" alt="The image for letter C">
+            <button class="hide" onclick="toggleContent('C')">Hide Result</button>
+        </div>
+    </div>
+
+</body>
+</html>
